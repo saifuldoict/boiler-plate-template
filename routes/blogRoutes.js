@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const blogController = require('../controllers/blogController');
 
-// Define blog routes
+
 // Create Route
 router.post('/create-blog', blogController.createBlog);
 
